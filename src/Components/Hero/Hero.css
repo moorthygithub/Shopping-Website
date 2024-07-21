@@ -1,0 +1,48 @@
+/* Hero.css */
+.hero-slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-images ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.slider-images li {
+  min-width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.hero-img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.control-prev,
+.control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.control-prev {
+  left: 10px;
+}
+
+.control-next {
+  right: 10px;
+}
+
+.products {
+  /* Add styles for your products section if needed */
+}
